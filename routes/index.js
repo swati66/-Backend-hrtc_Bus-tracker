@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var URL = "mongodb://swati66:123456@ds131782.mlab.com:31782/summer_hrtc"; //connects database to your mongo account
+var URL = "<mongodb account-connect>"; //connects database to your mongo account
 
 const db=require('monk')(URL);
 
